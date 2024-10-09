@@ -11,7 +11,7 @@ int main(){
 
     int d = 2*r;
 
-    do{
+    while(1){
         for(int x=0; x<=d; x++){
             for(int y=0; y<=d; y++){
                 for(int z=0; z<=d; z++){
@@ -27,7 +27,7 @@ int main(){
             printf("\n");
             system("cls"); //Clears the console screen for every new layer of the sphere
         }
-    } while(time(NULL));
+    }
 
     return 0;
 }
